@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Organism Odyssey</title>
+  <link rel="stylesheet" href="organism.css">
+</head>
+<body>
+  <header>
+    <h1>Organism Odyssey</h1>
+    <p class="subtitle">Explore, evolve, survive.</p>
+  </header>
+
+  <main>
+    <div class="hud">
+      <span id="score">Score: 0</span>
+      <button id="startBtn">Start</button>
+    </div>
+
+    <canvas id="gameCanvas" width="800" height="480" aria-label="Organism Odyssey game"></canvas>
+
+    <section id="info" hidden>
+      <h3>How to play</h3>
+      <p>Use arrow keys or WASD to move. Collect nutrients, avoid predators, evolve!</p>
+    </section>
+  </main>
+
+  <script src="organism.js"></script>
+</body>
+</html>
