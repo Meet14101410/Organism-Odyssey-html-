@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eef7ff;
+  text-align: center;
+}
+
+header {
+  padding: 20px 0;
+  background: #4c8bf5;
+  color: #fff;
+}
+
+.subtitle {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.hud {
+  margin: 15px 0;
+}
+
+#startBtn {
+  padding: 6px 14px;
+  border: none;
+  background: #4c8bf5;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#gameCanvas {
+  border: 2px solid #4c8bf5;
+  background: #fff;
+  margin-top: 10px;
+}
